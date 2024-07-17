@@ -6,7 +6,7 @@
 
 .container{
     display:grid;
-    grid-template: minmax(150px,20vh) 1fr/ minmax(min-content,15vw) 1fr;
+    grid-template: minmax(150px,20vh) 1fr/ minmax(min-content,18vw) 1fr;
 }
 
 .sidebar{
@@ -15,6 +15,16 @@
     padding:20px 10px 10px 20px;
     min-width: 200px;
     color: white;
+}
+
+.sidebar h1{
+    display: flex;
+    gap:10px;
+}
+
+.sidebar img{
+    background-color: white;
+    justify-content: center;
 }
 
 .sidebar ul{
